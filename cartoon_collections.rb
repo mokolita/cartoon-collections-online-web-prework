@@ -17,7 +17,10 @@ end
 def long_planeteer_calls(calls)
   calls_array = (calls)
   
-  if calls_array.select{|w| w.length > 4} 
+  if calls_array.select{|w| w.length > 4}
+    true  
+  else 
+    false 
 end
 
 def find_the_cheese# code an argument here
