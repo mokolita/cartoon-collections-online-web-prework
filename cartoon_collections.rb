@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(calls)
   calls_array = (calls)
   
-  if calls_array.select  
+  if calls_array.select{|w| } 
 end
 
 def find_the_cheese# code an argument here
