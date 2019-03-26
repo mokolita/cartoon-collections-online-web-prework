@@ -15,13 +15,9 @@ end
 end 
 
 def long_planeteer_calls(calls)
-  calls_array = (calls)
-  
-  if calls_array.select{|w| w.length > 4}
-    true  
-  else 
-    false 
-  end 
+  calls.any? do |call|
+    call.length > 4
+  end
 end
 
 def find_the_cheese(cheese)
@@ -37,10 +33,6 @@ end
 
 
 
-def long_planeteer_calls(calls)
-  calls.any? do |call|
-    call.length > 4
-  end
-end
+
 
 
